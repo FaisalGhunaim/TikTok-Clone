@@ -1,0 +1,49 @@
+.videoFooter {
+  position: relative;
+
+  bottom: 150px;
+  color: white;
+  margin-left: 40px;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.videoFooter-text {
+  flex: 1;
+}
+
+.videoFooter-text p {
+  padding-bottom: 20px;
+}
+
+.videoFooter-record {
+  animation: spain infinite 5s linear;
+  filter: invert(1);
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+}
+
+.videoFooter-text > h3 {
+  padding-bottom: 20px;
+}
+.videoFooter-ticker h1 {
+  padding-top: 7px;
+}
+.videoFooter-icon {
+  position: absolute;
+}
+.videoFooter-ticker > .ticker {
+  height: fit-content;
+  margin-left: 30px;
+  width: 60%;
+}
+@keyframes spain {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
